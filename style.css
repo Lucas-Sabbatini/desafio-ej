@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter; 
+    font-weight: 100;
+    color: white;
+    border-radius: 20px;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #E3E3E3;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 410px;
+    height: 497px; 
+    background: #232323; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 100%;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.inputs p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.inputs input{
+    height: 40px;
+    width: 275px;
+    border: none;
+}
+
+#USER{
+    padding-top: 60px;
+}
+.Login{
+    text-align: center;
+    font-size: 12px; 
+    word-wrap: break-word;
+    background-color: rgb(131, 37, 37);
+    width: 170px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Trob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Trob a{
+    width: 100%;
+    margin: 5px;
+    padding-top: 2px;
+    font-size: 12px; 
+    text-align: center;
+    text-decoration: underline;
+}
